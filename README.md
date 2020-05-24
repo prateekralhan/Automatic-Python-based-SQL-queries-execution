@@ -19,9 +19,14 @@ Apart from this, you will also receive a desktop notification for the same as we
 Our old school ***pip install < package name >*** is always at our service :wink: .
 
 ## Usage:
-1. Set up your server and Database credentials in the script ***main.py** in the part ***cnxn_str***.
+1. Set up your server and Database credentials in the script ***main.py*** in the part ***cnxn_str***.
+
 2. Establish connection with the server and pull results from the database using your SQL Query. You need to append your entire SQL query in the ***query*** string defined in the code. I have used multiline strings here so that you can also include lengthy queries here.
+
 3. Append the results in the Excel spreadsheet. I have formatted it a bit. Please feel free to play around and modify the spreadsheet as per the type of results you are fetching from your server.
+
 4. Send Desktop notifications for the same - I am using [***plyer***](https://plyer.readthedocs.io/en/latest/) here to generate Desktop notifications. Play around with it and configure as per your choice.
-**Note: This feature works only for Win10 OS. :sad:** 
-5. Set up your E-mail configuration for sending out E-mails after generating the results. I couldn't fully use this technique as due to data privacy and openSSL certification issues in my company this isn't allowed. But feel free to test it out and raise an issue if you run into any trouble.
+
+**Note: This feature works only for Win10 OS.** 
+
+5. Set up your E-mail configuration for sending out E-mails after generating the results. I couldn't fully use this technique due to data privacy and openSSL certification issues in my company this isn't allowed. But feel free to test it out and raise an issue if you run into any trouble.
