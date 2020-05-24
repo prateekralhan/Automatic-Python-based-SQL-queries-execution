@@ -11,7 +11,7 @@ Apart from this, you will also receive a desktop notification for the same as we
 1. pyodbc
 2. pandas
 3. os
-4. smtp
+4. smtplib
 5. plyer
 6. xlsxwriter
 
@@ -29,4 +29,8 @@ Our old school ***pip install < package name >*** is always at our service :wink
 
 **Note: This feature works only for Win10 OS.** 
 
-5. Set up your E-mail configuration for sending out E-mails after generating the results. I couldn't fully use this technique due to data privacy and openSSL certification issues in my company this isn't allowed. But feel free to test it out and raise an issue if you run into any trouble.
+5. Set up your E-mail configuration for sending out E-mails after generating the results. I couldn't fully use this technique due to data privacy and openSSL certification issues in my company this isn't allowed. But feel free to test it out and raise an issue if you run into any trouble. You can also check [this](https://www.tutorialspoint.com/send-mail-with-attachment-from-your-gmail-account-using-python) out for sending your Excel sheet as attachment in the Email.
+
+6. Edit your Directory details for this script in the attached batch file : ***sql_python_automate.bat***. We will use this to run the script periodically to receive updates from our database at regular intervals.
+
+7. Use **Windows Task Scheduler** to run this script periodically. Please check out my other work [here](https://github.com/prateekralhan/COVID-19-Tracker-using-Desktop-Notifications-) in case you wish to know how to set up a task in Windows Task Scheduler.
