@@ -5,7 +5,7 @@ As a part of my daily workload, I am supposed to execute lengthy SQL queries on 
 And here it is!!
 
 This python script will fetch the results from the Database of your server as per your SQL Query fed into the script and then automatically generate an excel spreadsheet in the folder ***Output_files*** with the pulled out results. I have also formatted the spreadsheet a bit to make it look a little funky :laughing: 
-Apart from this, you will also receive a desktop notification for the same as well as get intimated by E-mail as well. Sounds cool?
+Apart from this, you will also receive a desktop notification for the same as well as get intimated by E-mail. Sounds cool?
 
 ## Dependencies:
 1. pyodbc
