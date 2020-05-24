@@ -23,7 +23,7 @@ Our old school ***pip install < package name >*** is always at our service :wink
 
 2. Establish connection with the server and pull results from the database using your SQL Query. You need to append your entire SQL query in the ***query*** string defined in the code. I have used multiline strings here so that you can also include lengthy queries here.
 
-3. Append the results in the Excel spreadsheet. I have formatted it a bit. Please feel free to play around and modify the spreadsheet as per the type of results you are fetching from your server.
+3. Append the results in the Excel spreadsheet. I have formatted it a bit. Please feel free to play around and modify the spreadsheet as per the type of results you are fetching from your server. The spreadsheet that I have in the folder is dummy, I have erased the fetched output due to presence of Sensitive data in that. 
 
 4. Send Desktop notifications for the same - I am using [***plyer***](https://plyer.readthedocs.io/en/latest/) here to generate Desktop notifications. Play around with it and configure as per your choice.
 
