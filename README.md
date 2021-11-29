@@ -1,4 +1,5 @@
-# Automatic-Python-based-SQL-queries-execution [![Project Status: Concept](https://www.repostatus.org/badges/latest/concept.svg)](https://www.repostatus.org/#concept)
+# Automatic-Python-based-SQL-queries-execution [![Project Status: Concept](https://www.repostatus.org/badges/latest/concept.svg)](https://www.repostatus.org/#concept) [![](https://img.shields.io/badge/Prateek-Ralhan-brightgreen.svg?colorB=ff0000)](https://prateekralhan.github.io/)
+
 
 As a part of my daily workload, I am supposed to execute lengthy SQL queries on servers,databases as well. Now, this is kind of a really boring work and I thought why not let us try to automate this using Python?? 
 
